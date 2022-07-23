@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.aashviit.DSEAssistant">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/playstore"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/playstore"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.DSYApplication"
+        tools:targetApi="31">
+        <activity
+            android:name="com.aashviit.DSEAssistant.SplashScreen"
+            android:exported="true"
+            android:label="DSY Admission Helper,Maharashtra"
+            android:noHistory="true"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.aashviit.DSEAssistant.ui.home.Merit"
+            android:exported="false"
+            android:label="@string/title_activity_merit"
+            android:theme="@style/Theme.DSYApplication.NoActionBar" />
+        <activity
+            android:name="com.aashviit.DSEAssistant.ui.home.Cutoff"
+            android:exported="false"
+            android:label="@string/title_activity_cutoff"
+            android:theme="@style/Theme.DSYApplication.NoActionBar" />
+        <activity
+            android:name="com.aashviit.DSEAssistant.ui.home.Seat"
+            android:exported="false"
+            android:label="@string/title_activity_seat"
+            android:theme="@style/Theme.DSYApplication.NoActionBar" />
+        <activity
+            android:name="com.aashviit.DSEAssistant.ui.gallery.Website"
+            android:exported="false" />
+        <activity
+            android:name="com.aashviit.DSEAssistant.ui.home.Cap3"
+            android:exported="false"
+            android:label="@string/title_activity_cap3"
+            android:theme="@style/Theme.DSYApplication.NoActionBar" />
+        <activity
+            android:name="com.aashviit.DSEAssistant.ui.home.Cap1"
+            android:exported="false"
+            android:label="@string/title_activity_cap1"
+            android:theme="@style/Theme.DSYApplication.NoActionBar" />
+        <activity
+            android:name="com.aashviit.DSEAssistant.ui.home.viewpdf"
+            android:exported="false" />
+        <activity
+            android:name="com.aashviit.DSEAssistant.ui.home.Cap2"
+            android:exported="false"
+            android:label="@string/title_activity_cap2"
+            android:theme="@style/Theme.DSYApplication.NoActionBar" />
+        <activity
+            android:name="com.aashviit.DSEAssistant.MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.DSYApplication.NoActionBar">
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-5343519906233311~5675360636" />
+
+    </application>
+
+</manifest>

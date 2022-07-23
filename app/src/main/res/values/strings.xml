@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">DSY Admission Helper,Maharashtra</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="title_activity_cap1">Cap1</string>
+    <string name="tab_text_1">2018</string>
+    <string name="tab_text_2">2019</string>
+    <string name="tab_text_3">2020</string>
+    <string name="tab_text_4">2021</string>
+    <string name="title_activity_cap2">Cap2</string>
+    <string name="title_activity_cap3">Cap3</string>
+    <string name="title_activity_seat">Seat</string>
+    <string name="title_activity_cutoff">Cutoff</string>
+    <string name="title_activity_merit">Merit</string>
+    <string name="adsUnit">ca-app-pub-3940256099942544/1033173712</string>
+</resources>
