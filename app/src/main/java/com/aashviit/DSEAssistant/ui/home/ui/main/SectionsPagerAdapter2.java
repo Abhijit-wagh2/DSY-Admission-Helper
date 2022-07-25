@@ -9,7 +9,6 @@ import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
 
 import com.aashviit.DSEAssistant.R;
-import com.aashviit.DSEAssistant.ui.home.cap1.Cap1_2018;
 import com.aashviit.DSEAssistant.ui.home.cap1.Cap1_2019;
 import com.aashviit.DSEAssistant.ui.home.cap1.Cap1_2020;
 import com.aashviit.DSEAssistant.ui.home.cap1.Cap1_2021;
@@ -17,7 +16,7 @@ import com.aashviit.DSEAssistant.ui.home.cap1.Cap1_2021;
 public class SectionsPagerAdapter2 extends FragmentPagerAdapter {
 
     @StringRes
-    private static final int[] TAB_TITLES = new int[]{R.string.tab_text_1, R.string.tab_text_2,R.string.tab_text_3,R.string.tab_text_4};
+    private static final int[] TAB_TITLES = new int[]{R.string.tab_text_4,R.string.tab_text_3,R.string.tab_text_2};
     private final Context mContext;
 
     public SectionsPagerAdapter2(Context context, FragmentManager fm) {
@@ -30,21 +29,19 @@ public class SectionsPagerAdapter2 extends FragmentPagerAdapter {
         Fragment fragment = null;
         switch (position){
             case 0:
-                fragment=new Cap1_2018();
+                fragment=new Cap1_2021();
                 break;
 
             case 1:
-                fragment=new Cap1_2019();
-                break;
-
-            case 2:
                 fragment=new Cap1_2020();
                 break;
 
-
-            case 3:
-                fragment=new Cap1_2021();
+            case 2:
+                fragment=new Cap1_2019();
                 break;
+
+
+
 
         }
         return fragment;
@@ -58,6 +55,6 @@ public class SectionsPagerAdapter2 extends FragmentPagerAdapter {
 
     @Override
     public int getCount() {
-        return 4;
+        return 3;
     }
 }

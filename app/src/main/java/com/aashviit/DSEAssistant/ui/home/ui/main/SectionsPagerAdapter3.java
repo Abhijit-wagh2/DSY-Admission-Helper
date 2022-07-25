@@ -15,7 +15,7 @@ import com.aashviit.DSEAssistant.ui.home.cap3.Cap3_2019;
 public class SectionsPagerAdapter3 extends FragmentPagerAdapter {
 
     @StringRes
-    private static final int[] TAB_TITLES = new int[]{R.string.tab_text_1, R.string.tab_text_2};
+    private static final int[] TAB_TITLES = new int[]{R.string.tab_text_2, R.string.tab_text_1};
     private final Context mContext;
 
     public SectionsPagerAdapter3(Context context, FragmentManager fm) {
@@ -28,11 +28,11 @@ public class SectionsPagerAdapter3 extends FragmentPagerAdapter {
         Fragment fragment = null;
         switch (position){
             case 0:
-                fragment=new Cap3_2018();
+                fragment=new Cap3_2019();
                 break;
 
             case 1:
-                fragment=new Cap3_2019();
+                fragment=new Cap3_2018();
                 break;
         }
         return fragment;

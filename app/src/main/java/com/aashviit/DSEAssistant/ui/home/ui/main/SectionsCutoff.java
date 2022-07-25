@@ -9,7 +9,6 @@ import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
 
 import com.aashviit.DSEAssistant.R;
-import com.aashviit.DSEAssistant.ui.home.cutoff.Cutoff_2018;
 import com.aashviit.DSEAssistant.ui.home.cutoff.Cutoff_2019;
 import com.aashviit.DSEAssistant.ui.home.cutoff.Cutoff_2020;
 import com.aashviit.DSEAssistant.ui.home.cutoff.Cutoff_2021;
@@ -17,7 +16,7 @@ import com.aashviit.DSEAssistant.ui.home.cutoff.Cutoff_2021;
 public class SectionsCutoff extends FragmentPagerAdapter {
 
     @StringRes
-    private static final int[] TAB_TITLES = new int[]{R.string.tab_text_1, R.string.tab_text_2,R.string.tab_text_3,R.string.tab_text_4};
+    private static final int[] TAB_TITLES = new int[]{ R.string.tab_text_4,R.string.tab_text_3,R.string.tab_text_2};
     private final Context mContext;
 
     public SectionsCutoff(Context context, FragmentManager fm) {
@@ -30,20 +29,15 @@ public class SectionsCutoff extends FragmentPagerAdapter {
         Fragment fragment = null;
         switch (position){
             case 0:
-                fragment=new Cutoff_2018();
+                fragment=new Cutoff_2021();
                 break;
 
             case 1:
-                fragment=new Cutoff_2019();
-                break;
-
-            case 2:
                 fragment=new Cutoff_2020();
                 break;
 
-
-            case 3:
-                fragment=new Cutoff_2021();
+            case 2:
+                fragment=new Cutoff_2019();
                 break;
 
         }
@@ -58,6 +52,6 @@ public class SectionsCutoff extends FragmentPagerAdapter {
 
     @Override
     public int getCount() {
-        return 4;
+        return 3;
     }
 }
