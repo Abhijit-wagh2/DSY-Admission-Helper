@@ -82,7 +82,7 @@ public class Cap2_2020 extends Fragment {
                 initdata();
                 adapter=new myadapter(view.getContext(),userlist);
                 recview.setAdapter(adapter);
-                EventChangeListener();
+                //EventChangeListener();
             }
         });
 
@@ -92,7 +92,7 @@ public class Cap2_2020 extends Fragment {
         initdata();
         adapter=new myadapter(view.getContext(),userlist);
         recview.setAdapter(adapter);
-        EventChangeListener();
+        //EventChangeListener();
         return view;
     }
 
