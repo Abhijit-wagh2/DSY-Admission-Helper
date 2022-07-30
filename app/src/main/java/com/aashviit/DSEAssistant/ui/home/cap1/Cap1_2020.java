@@ -100,8 +100,8 @@ public class Cap1_2020 extends Fragment {
 
     private void initdata() {
         userlist=new ArrayList<model>();
-        userlist.add(new model("pict",1234,"https://firebasestorage.googleapis.com/v0/b/dse-application-da44a.appspot.com/o/upload%2F1657816267304.pdf?alt=media&token=1a83628c-af78-4c69-a01e-8a96c0f7d606"));
-        userlist.add(new model("pict",1234,"https://media-exp1.licdn.com/dms/document/C561FAQFwscbpVms-Jw/feedshare-document-pdf-analyzed/0/1659067857433?e=1660176000&v=beta&t=zd2UHMiMllHZjnSjNezWsAxDIaWVVAUJ4JyBdrxid9A"));
+      //userlist.add(new model("pict",1234,"https://firebasestorage.googleapis.com/v0/b/dse-application-da44a.appspot.com/o/upload%2F1657816267304.pdf?alt=media&token=1a83628c-af78-4c69-a01e-8a96c0f7d606"));
+        //userlist.add(new model("pict",1234,"https://media-exp1.licdn.com/dms/document/C561FAQFwscbpVms-Jw/feedshare-document-pdf-analyzed/0/1659067857433?e=1660176000&v=beta&t=zd2UHMiMllHZjnSjNezWsAxDIaWVVAUJ4JyBdrxid9A"));
         userlist.add(new model("Government College of Engineering, Jalgaon",5010,"https://firebasestorage.googleapis.com/v0/b/dse-application-da44a.appspot.com/o/upload%2F1658145800000.pdf?alt=media&token=f4087096-554c-4206-a465-c2a5c92d4232"));
         userlist.add(new model("Government College of Engineering, Amravati",1002,"https://firebasestorage.googleapis.com/v0/b/dse-application-da44a.appspot.com/o/upload%2F1658145551853.pdf?alt=media&token=4100a4e9-eacd-41a6-9e4a-245e480bc5a3"));
         userlist.add(new model("Sant Gadge Baba Amravati University,Amravati",1005,"https://firebasestorage.googleapis.com/v0/b/dse-application-da44a.appspot.com/o/upload%2F1658145597214.pdf?alt=media&token=6cc2a6d3-1c61-4cfb-879f-c612c79dc051"));
@@ -147,7 +147,6 @@ public class Cap1_2020 extends Fragment {
         userlist.add(new model("Gramin College of Engineering, Vishnupuri, Nanded",2573,"https://firebasestorage.googleapis.com/v0/b/dse-application-da44a.appspot.com/o/upload%2F1658146927184.pdf?alt=media&token=6338f5b0-cd9d-40d1-b397-d1fc0f6b4d67"));
         userlist.add(new model("Veermata Jijabai Technological Institute(VJTI), Matunga, Mumbai",3012,"https://firebasestorage.googleapis.com/v0/b/dse-application-da44a.appspot.com/o/upload%2F1658146956620.pdf?alt=media&token=44df3c56-4165-4192-b254-ca52603a1324"));
         userlist.add(new model("Sardar Patel College of Engineering, Andheri",3014,"https://firebasestorage.googleapis.com/v0/b/dse-application-da44a.appspot.com/o/upload%2F1658147008766.pdf?alt=media&token=e12be1b3-0090-4cc9-a8e7-cf5833b964c8"));
-
         userlist.add(new model("Dr. Babasaheb Ambedkar Technological University, Lonere",3033,"https://firebasestorage.googleapis.com/v0/b/dse-application-da44a.appspot.com/o/upload%2F1658147029821.pdf?alt=media&token=29515154-83b5-43bd-b508-c1a7017af12a"));
         userlist.add(new model("Usha Mittal Institute of Technology SNDT Women's University, Mumbai",3035,"https://firebasestorage.googleapis.com/v0/b/dse-application-da44a.appspot.com/o/upload%2F1658147053142.pdf?alt=media&token=5bbd6699-b996-42f6-a855-67446423c2ee"));
         userlist.add(new model("Manjara Charitable Trust's Rajiv Gandhi Institute of Technology, Mumbai",3135,"https://firebasestorage.googleapis.com/v0/b/dse-application-da44a.appspot.com/o/upload%2F1658147072301.pdf?alt=media&token=dae8e188-fafc-4664-a150-9608583f727d"));
@@ -166,19 +165,11 @@ public class Cap1_2020 extends Fragment {
         userlist.add(new model("N.Y.S.S.'s Datta Meghe College of Engineering, Airoli, Navi Mumbai",3187,"https://firebasestorage.googleapis.com/v0/b/dse-application-da44a.appspot.com/o/upload%2F1658147389904.pdf?alt=media&token=5a8d13a4-7fe7-4587-adbc-236046b25bd8"));
         userlist.add(new model("Vasantdada Patil Pratishthan's College Of Engineering and Visual Arts, Sion, Mumbai",3188,"https://firebasestorage.googleapis.com/v0/b/dse-application-da44a.appspot.com/o/upload%2F1658147413044.pdf?alt=media&token=56962a23-c732-49ce-b2bc-692272de1ce1"));
         userlist.add(new model("Bharati Vidyapeeth College of Engineering, Navi Mumbai",3189,"https://firebasestorage.googleapis.com/v0/b/dse-application-da44a.appspot.com/o/upload%2F1658147443005.pdf?alt=media&token=d282db15-371e-4b8d-b4fc-4ceca7a42493"));
-
         userlist.add(new model("Terna Engineering College, Nerul, Navi Mumbai",3190,"https://firebasestorage.googleapis.com/v0/b/dse-application-da44a.appspot.com/o/upload%2F1658147464496.pdf?alt=media&token=0848de7e-b6f8-4c1d-b9a7-7f712ae686b8"));
-
         userlist.add(new model("Smt. Indira Gandhi College of Engineering, Navi Mumbai",3192,"https://firebasestorage.googleapis.com/v0/b/dse-application-da44a.appspot.com/o/upload%2F1658147490201.pdf?alt=media&token=c94d5cdb-b812-419a-9801-a494bb11bb29"));
-
         userlist.add(new model("Shivajirao S. Jondhale College of Engineering, Dombivali,Mumbai",3193,"https://firebasestorage.googleapis.com/v0/b/dse-application-da44a.appspot.com/o/upload%2F1658147519229.pdf?alt=media&token=7398d9ab-a43e-41fb-b3af-e64dbbcb89e0"));
-
         userlist.add(new model("Vidyavardhini's College of Engineering and Technology, Vasai",3194,"https://firebasestorage.googleapis.com/v0/b/dse-application-da44a.appspot.com/o/upload%2F1657951670756.pdf?alt=media&token=a84d3c3f-60d3-471f-a873-fee8c6d7e5bb"));
-
-
-
         userlist.add(new model("Lokmanya Tilak College of Engineering, Kopar Khairane, Navi Mumbai",3196,"https://firebasestorage.googleapis.com/v0/b/dse-application-da44a.appspot.com/o/upload%2F1657951716139.pdf?alt=media&token=52ee7379-a857-4ac9-9de2-4ca300b6ffa6"));
-
 
         userlist.add(new model("Agnel Charities' FR. C. Rodrigues Institute of Technology, Vashi, Navi Mumbai",3197,"https://firebasestorage.googleapis.com/v0/b/dse-application-da44a.appspot.com/o/upload%2F1657951755860.pdf?alt=media&token=f415313b-16cd-4615-a977-6ffa7eee98a8"));
 
@@ -498,55 +489,6 @@ public class Cap1_2020 extends Fragment {
         userlist.add(new model("Dr. A. D. Shinde College Of Engineering, Tal.Gadhinglaj, Kolhapur",6878,"https://firebasestorage.googleapis.com/v0/b/dse-application-da44a.appspot.com/o/upload%2F1658158092469.pdf?alt=media&token=e691222d-59f3-4510-b3ab-1d1e1aab8b0e"));
         userlist.add(new model("MAEER's MIT College of Railway Engineering and Research, Jamgaon, Barshi",6901,"https://firebasestorage.googleapis.com/v0/b/dse-application-da44a.appspot.com/o/upload%2F1658158127151.pdf?alt=media&token=b5c795e4-eb29-46e2-82e4-f72a84c70f80"));
         userlist.add(new model("Shree Siddheshwar Women's College Of Engineering Solapur.",6938,"https://firebasestorage.googleapis.com/v0/b/dse-application-da44a.appspot.com/o/upload%2F1658158167479.pdf?alt=media&token=1dfb0954-7f56-42d2-a8a0-a3faae2c4a2b"));
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         progressDialog.dismiss();
     }
 
