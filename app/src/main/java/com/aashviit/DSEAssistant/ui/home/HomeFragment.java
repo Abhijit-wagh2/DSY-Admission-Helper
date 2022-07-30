@@ -50,10 +50,6 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
         });
 
 
-
-
-
-//list
         l1=view.findViewById(R.id.layout1);
         l2=view.findViewById(R.id.layout2);
         l3=view.findViewById(R.id.layout3);

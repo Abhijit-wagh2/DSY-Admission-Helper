@@ -13,6 +13,12 @@ public class model {
         this.Institute_Code = institute_Code;
     }
 
+    public model(String collageName, int institute_Code, String fileurl) {
+        this.fileurl = fileurl;
+        this.CollageName = collageName;
+        this.Institute_Code = institute_Code;
+    }
+
     public int getInstitute_Code() {
         return Institute_Code;
     }

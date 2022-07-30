@@ -9,14 +9,13 @@ import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
 
 import com.aashviit.DSEAssistant.R;
-import com.aashviit.DSEAssistant.ui.home.cap1.Cap1_2019;
 import com.aashviit.DSEAssistant.ui.home.cap1.Cap1_2020;
 import com.aashviit.DSEAssistant.ui.home.cap1.Cap1_2021;
 
 public class SectionsPagerAdapter2 extends FragmentPagerAdapter {
 
     @StringRes
-    private static final int[] TAB_TITLES = new int[]{R.string.tab_text_4,R.string.tab_text_3,R.string.tab_text_2};
+    private static final int[] TAB_TITLES = new int[]{R.string.tab_text_4,R.string.tab_text_3};
     private final Context mContext;
 
     public SectionsPagerAdapter2(Context context, FragmentManager fm) {
@@ -35,14 +34,6 @@ public class SectionsPagerAdapter2 extends FragmentPagerAdapter {
             case 1:
                 fragment=new Cap1_2020();
                 break;
-
-            case 2:
-                fragment=new Cap1_2019();
-                break;
-
-
-
-
         }
         return fragment;
     }
@@ -55,6 +46,6 @@ public class SectionsPagerAdapter2 extends FragmentPagerAdapter {
 
     @Override
     public int getCount() {
-        return 3;
+        return 2;
     }
 }

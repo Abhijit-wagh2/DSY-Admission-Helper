@@ -22,8 +22,8 @@ public class Merit extends AppCompatActivity {
 
         binding = ActivityMeritBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
-
         SectionsMerit sectionsPagerAdapter = new SectionsMerit(this, getSupportFragmentManager());
+
         ViewPager viewPager = binding.viewPager;
         viewPager.setAdapter(sectionsPagerAdapter);
         TabLayout tabs = binding.tabs;

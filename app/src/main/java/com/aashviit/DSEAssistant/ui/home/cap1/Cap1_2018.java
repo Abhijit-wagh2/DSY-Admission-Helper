@@ -51,7 +51,7 @@ public class Cap1_2018 extends Fragment {
         recview = (RecyclerView)view.findViewById (R.id.recview);
         recview.setLayoutManager(new LinearLayoutManager(view.getContext()));
         progressDialog= new ProgressDialog(view.getContext());
-        progressDialog.setCancelable(false);
+         progressDialog.setCancelable(false);
         progressDialog.setMessage("Fething Data...");
         progressDialog.show();
         editText=(EditText) view.findViewById(R.id.editTextTextPersonName);
@@ -79,9 +79,11 @@ public class Cap1_2018 extends Fragment {
             public void onClick(View v) {
                 db=FirebaseFirestore.getInstance();
                 userlist=new ArrayList<model>();
+                initdata();
                 adapter=new myadapter(view.getContext(),userlist);
                 recview.setAdapter(adapter);
-                EventChangeListener();
+
+                //EventChangeListener();
             }
         });
 
@@ -89,11 +91,19 @@ public class Cap1_2018 extends Fragment {
 
         db=FirebaseFirestore.getInstance();
         userlist=new ArrayList<model>();
+        initdata();
         adapter=new myadapter(view.getContext(),userlist);
         recview.setAdapter(adapter);
-        EventChangeListener();
+      //  EventChangeListener();
         return view;
 
+    }
+
+    private void initdata() {
+        userlist=new ArrayList<model>();
+        userlist.add(new model("pict",1234,"https://firebasestorage.googleapis.com/v0/b/dse-application-da44a.appspot.com/o/upload%2F1657816267304.pdf?alt=media&token=1a83628c-af78-4c69-a01e-8a96c0f7d606"));
+        userlist.add(new model("pict",1234,"https://media-exp1.licdn.com/dms/document/C561FAQFwscbpVms-Jw/feedshare-document-pdf-analyzed/0/1659067857433?e=1660176000&v=beta&t=zd2UHMiMllHZjnSjNezWsAxDIaWVVAUJ4JyBdrxid9A"));
+        progressDialog.dismiss();
     }
 
 
