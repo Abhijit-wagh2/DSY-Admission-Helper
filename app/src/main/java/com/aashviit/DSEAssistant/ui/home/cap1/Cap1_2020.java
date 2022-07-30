@@ -102,6 +102,11 @@ public class Cap1_2020 extends Fragment {
         userlist=new ArrayList<model>();
         userlist.add(new model("pict",1234,"https://firebasestorage.googleapis.com/v0/b/dse-application-da44a.appspot.com/o/upload%2F1657816267304.pdf?alt=media&token=1a83628c-af78-4c69-a01e-8a96c0f7d606"));
         userlist.add(new model("pict",1234,"https://media-exp1.licdn.com/dms/document/C561FAQFwscbpVms-Jw/feedshare-document-pdf-analyzed/0/1659067857433?e=1660176000&v=beta&t=zd2UHMiMllHZjnSjNezWsAxDIaWVVAUJ4JyBdrxid9A"));
+        userlist.add(new model("Government College of Engineering, Jalgaon",5010,"https://firebasestorage.googleapis.com/v0/b/dse-application-da44a.appspot.com/o/upload%2F1658145800000.pdf?alt=media&token=f4087096-554c-4206-a465-c2a5c92d4232"));
+        //userlist.add(new model(,,));
+        //userlist.add(new model(,,));
+        //userlist.add(new model(,,));
+
         progressDialog.dismiss();
     }
 
