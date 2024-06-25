@@ -38,7 +38,7 @@ To install the app, follow these steps:
 
 1. Clone this repository:
    ```sh
-   git clone https://github.com/yourusername/DSEAssistant.git
+   https://github.com/Abhijit-wagh2/DSY-Admission-Helper/tree/master
 Contributing
 Contributions are welcome! Please follow the setup instructions and the Git commands provided to contribute effectively.
 
